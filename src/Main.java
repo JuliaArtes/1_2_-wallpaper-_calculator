@@ -13,5 +13,5 @@ public class Main {
         System.out.println("Число кусков на комнату  "+numberOfPiecesOnRoom);
         System.out.println("Число кусков в рулоне  "+numberOfPiecesInRoll);
         System.out.println("Необходимое количество рулонов  "+numberOfRoll);
-     }
+    }
 }
