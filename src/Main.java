@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        int roomLengthSm = 500; // enter the length of the room incentimeters
-        int roomWidthSm = 600; // enter the width of the room in centimeters
-        int roomHeightSm = 220;//  enter the height of the room in centimeters
-        int rollWidthSm = 70;//enter the wallpaper width  in centimeters
-        int rollLenghSm = 1000; //enterthe roll length in centimeters
+        int roomLengthSm = 500;
+        int roomWidthSm = 600;
+        int roomHeightSm = 220;
+        int rollWidthSm = 70;
+        int rollLenghSm = 1000;
         int roomPerimeterSm = 2 * (roomLengthSm + roomWidthSm);
         int numberOfPiecesInRoll = rollLenghSm / roomHeightSm;
         int numberOfPiecesOnRoom = roomPerimeterSm / rollWidthSm;
